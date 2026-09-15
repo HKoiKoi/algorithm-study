@@ -4,6 +4,6 @@
 
 - [빌트인 데이터 타입 - 기본 데이터 타입](https://velog.io/@koikoilove99/python-basic)
 - [엡실론](https://velog.io/@koikoilove99/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88-%EC%97%A1%EC%8B%A4%EB%A1%A0)
-- [빌트인 데이터 타입 - 컬렉션 데이터 타입]()
+- [빌트인 데이터 타입 - 컬렉션 데이터 타입](https://velog.io/@koikoilove99/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88-%EB%B9%8C%ED%8A%B8%EC%9D%B8-%EC%BB%AC%EB%A0%89%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85)
 
 ## 코딩 테스트
