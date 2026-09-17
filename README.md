@@ -24,3 +24,4 @@
 |     기관     |          출처          | 레벨 |                         문제 번호 (문제 페이지)                          |                      문제 제목 (문제 풀이 포스트)                      |              풀이 언어 (풀이 파일)               |
 |:------------:|:----------------------:|:----:|:------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:------------------------------------------------:|
 | 프로그래머스 | 월간 코드 챌린지 시즌1 | Lv.1 | [68644](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | [두 개 뽑아서 더하기](https://velog.io/@koikoilove99/pick-two-and-add) | [Python 3](./problems/68644_pick_two_and_add.py) |
+| 프로그래머스 |        완전탐색        | Lv.1 | [42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |          [모의고사](https://velog.io/@koikoilove99/mock-exam)          |    [Python 3](./problems/42840_mock_exam.py)     |
