@@ -14,3 +14,5 @@
 ## [코딩 테스트](https://velog.io/@koikoilove99/series/coding-test)
 
 - [코딩 테스트 코드 구현 팁](https://velog.io/@koikoilove99/coding-test-tips)
+
+- [코딩 테스트에서 자주 활용하는 리스트 기법](https://velog.io/@koikoilove99/coding-test-frequent-python-list-tips)
