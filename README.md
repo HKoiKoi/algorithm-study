@@ -10,6 +10,7 @@
 ## [자료구조](https://velog.io/@koikoilove99/series/data-structures)
 
 - [배열](https://velog.io/@koikoilove99/python-data-structure-array)
+- [스택](https://velog.io/@koikoilove99/python-data-structure-stack)
 
 ## [코딩 테스트](https://velog.io/@koikoilove99/series/coding-test)
 
@@ -28,3 +29,4 @@
 | 프로그래머스 |    월간 코드 챌린지 시즌1    | Lv.1 | [68644](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | [두 개 뽑아서 더하기](https://velog.io/@koikoilove99/pick-two-and-add) |   [Python 3](./problems/68644_pick_two_and_add.py)    |
 | 프로그래머스 |           연습문제           | Lv.2 | [12949](https://school.programmers.co.kr/learn/courses/30/lessons/12949) |  [행렬의 곱셈](https://velog.io/@koikoilove99/matrix-multiplication)   | [Python 3](./problems/12949_matrix_multiplication.py) |
 | 프로그래머스 | Summer/Winter Coding(~2018)  | Lv.2 | [49994](https://school.programmers.co.kr/learn/courses/30/lessons/49994) |       [방문 길이](https://velog.io/@koikoilove99/visited-length)       |    [Python 3](./problems/49994_visited_length.py)     |                                 
+| 프로그래머스 |    월간 코드 챌린지 시즌2    | Lv.2 | [76502](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |                           [괄호 회전하기]()                            |  [Python 3](./problems/76502_rotate_parentheses.py)   |
