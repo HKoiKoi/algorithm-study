@@ -1,10 +1,18 @@
 def solution(s):
-    answer = -1
+    stack = []
 
-    # [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-    print('Hello Python')
+    for ch in s:
+        if not stack:
+            stack.append(ch)
+            continue
 
-    return answer
+        if stack[-1] == ch:
+            stack.pop()
+            continue
+
+        stack.append(ch)
+
+    return 1 if len(stack) == 0 else 0
 
 
 test_s1 = "baabaa"
