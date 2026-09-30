@@ -11,6 +11,7 @@
 
 - [배열](https://velog.io/@koikoilove99/python-data-structure-array)
 - [스택](https://velog.io/@koikoilove99/python-data-structure-stack)
+- [큐](https://velog.io/@koikoilove99/python-data-structure-queue)
 
 ## [코딩 테스트](https://velog.io/@koikoilove99/series/coding-test)
 
