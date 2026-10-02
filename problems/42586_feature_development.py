@@ -1,5 +1,25 @@
+import math
+
+
 def solution(progresses, speeds):
     answer = []
+
+    deploy_day = [math.ceil((100 - progresses[i]) / speeds[i]) for i in range(len(progresses))]
+    max_day = deploy_day[0]
+    count = 0
+
+    for i in range(len(progresses)):
+        if deploy_day[i] <= max_day:
+            count += 1
+        else:
+            answer.append(count)
+
+            count = 1
+
+            max_day = deploy_day[i]
+
+    answer.append(count)
+
     return answer
 
 
