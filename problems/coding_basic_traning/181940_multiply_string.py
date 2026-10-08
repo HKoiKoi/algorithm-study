@@ -1,6 +1,5 @@
 def solution(my_string, k):
-    answer = ''
-    return answer
+    return my_string * k
 
 
 test_my_string1 = "string"
