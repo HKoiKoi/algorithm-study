@@ -1,6 +1,5 @@
 def solution(num, n):
-    answer = 0
-    return answer
+    return int(not (num % n))
 
 
 test_num1 = 98

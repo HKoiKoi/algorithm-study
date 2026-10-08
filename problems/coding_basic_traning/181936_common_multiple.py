@@ -1,6 +1,5 @@
 def solution(number, n, m):
-    answer = 0
-    return answer
+    return int(not ((number % n) or (number % m)))
 
 
 test_number1 = 60

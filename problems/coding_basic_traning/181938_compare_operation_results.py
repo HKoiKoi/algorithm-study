@@ -1,6 +1,5 @@
 def solution(a, b):
-    answer = 0
-    return answer
+    return max(int(f"{a}{b}"), 2 * a * b)
 
 
 test_a1 = 2
