@@ -1,6 +1,13 @@
+from collections import Counter
+
+
 def solution(participant, completion):
-    answer = ''
-    return answer
+    participant_count = Counter(participant)
+    completion_count = Counter(completion)
+
+    unfinished_player = participant_count - completion_count
+
+    return list(unfinished_player.keys())[0]
 
 
 test_participant1 = ["leo", "kiki", "eden"]

@@ -1,6 +1,5 @@
 def solution(a, b, flag):
-    answer = 0
-    return answer
+    return a + b if flag else a - b
 
 
 test_a = -4

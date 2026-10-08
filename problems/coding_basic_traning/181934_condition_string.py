@@ -1,6 +1,8 @@
 def solution(ineq, eq, n, m):
-    answer = 0
-    return answer
+    if eq == "=":
+        return int(eval(f"{n} {ineq}= {m}"))
+
+    return int(eval(f"{n} {ineq} {m}"))
 
 
 test_ineq1 = "<"

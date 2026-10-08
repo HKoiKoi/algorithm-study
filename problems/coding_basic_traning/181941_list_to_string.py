@@ -1,6 +1,5 @@
 def solution(arr):
-    answer = ''
-    return answer
+    return "".join(arr)
 
 
 test_arr = ["a", "b", "c"]
