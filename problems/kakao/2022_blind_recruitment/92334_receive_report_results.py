@@ -1,6 +1,18 @@
 def solution(id_list, report, k):
-    answer = []
-    return answer
+    reported_dict = {user_id: set() for user_id in id_list}
+    mail_count_dict = {user_id: 0 for user_id in id_list}
+
+    for record in report:
+        reporter, reported_user = record.split()
+
+        reported_dict[reported_user].add(reporter)
+
+    for reported_user, reporters in reported_dict.items():
+        if len(reporters) >= k:
+            for reporter in reporters:
+                mail_count_dict[reporter] += 1
+
+    return [mail_count_dict[user_id] for user_id in id_list]
 
 
 test_id_list1 = ["muzi", "frodo", "apeach", "neo"]

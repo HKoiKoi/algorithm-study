@@ -1,6 +1,28 @@
+from collections import Counter
+from itertools import combinations
+
+
 def solution(orders, course):
     answer = []
-    return answer
+
+    for course_size in course:
+        candidates = []
+
+        for order in orders:
+            comb = combinations(sorted(order), course_size)
+            candidates.extend(comb)
+
+        order_count = Counter(candidates)
+
+        if order_count:
+            max_count = max(order_count.values())
+
+            if max_count >= 2:
+                for menu, count in order_count.items():
+                    if count == max_count:
+                        answer.append("".join(menu))
+
+    return sorted(answer)
 
 
 test_orders1 = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]
