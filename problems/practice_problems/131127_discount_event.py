@@ -1,6 +1,20 @@
+from collections import Counter
+
+
 def solution(want, number, discount):
-    answer = 0
-    return answer
+    want_dict = {}
+    for i in range(len(want)):
+        want_dict[want[i]] = number[i]
+
+    possible_sign_up = 0
+
+    for i in range(len(discount) - 9):
+        discount_10d = discount[i:i + 10]
+        discount_10d_dict = Counter(discount_10d)
+        if want_dict == discount_10d_dict:
+            possible_sign_up += 1
+
+    return possible_sign_up
 
 
 test_want1 = ["banana", "apple", "rice", "pork", "pot"]
