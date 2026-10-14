@@ -13,12 +13,14 @@
 - [스택](https://velog.io/@koikoilove99/python-data-structure-stack)
 - [큐](https://velog.io/@koikoilove99/python-data-structure-queue)
 - [해시](https://velog.io/@koikoilove99/python-data-structure-hash)
+- [트리](https://velog.io/@koikoilove99/python-data-structure-tree)
 
 ## [코딩 테스트](https://velog.io/@koikoilove99/series/coding-test)
 
 - [코딩 테스트 코드 구현 팁](https://velog.io/@koikoilove99/coding-test-tips)
 - [코딩 테스트에서 자주 활용하는 리스트 기법](https://velog.io/@koikoilove99/coding-test-frequent-python-list-tips)
 - [itertools 모듈](https://velog.io/@koikoilove99/python-itertools)
+- [파이썬 이진 트리 구현하기](https://velog.io/@koikoilove99/python-binary-tree-implementation)
 
 ### 코딩 테스트 문제
 
