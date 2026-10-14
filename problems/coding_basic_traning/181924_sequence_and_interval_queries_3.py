@@ -1,6 +1,8 @@
 def solution(arr, queries):
-    answer = []
-    return answer
+    for query in queries:
+        arr[query[0]], arr[query[1]] = arr[query[1]], arr[query[0]]
+
+    return arr
 
 
 test_arr = [0, 1, 2, 3, 4]

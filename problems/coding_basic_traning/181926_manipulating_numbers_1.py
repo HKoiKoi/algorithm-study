@@ -1,6 +1,7 @@
 def solution(n, control):
-    answer = 0
-    return answer
+    command = dict(zip(["w", "s", "d", "a"], [1, -1, 10, -10]))
+
+    return n + sum(command[ch] for ch in control)
 
 
 test_n = 0

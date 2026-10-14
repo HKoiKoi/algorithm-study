@@ -1,6 +1,8 @@
 def solution(num_list):
-    answer = 0
-    return answer
+    odd = int("".join(str(num) for num in num_list if num % 2 != 0))
+    even = int("".join(str(num) for num in num_list if num % 2 == 0))
+
+    return odd + even
 
 
 test_num_list_1 = [3, 4, 5, 2, 1]

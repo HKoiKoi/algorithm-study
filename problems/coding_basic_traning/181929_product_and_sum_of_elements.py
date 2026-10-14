@@ -1,6 +1,12 @@
 def solution(num_list):
-    answer = 0
-    return answer
+    product = 1
+    sum = 0
+
+    for num in num_list:
+        product *= num
+        sum += num
+
+    return int(product < sum ** 2)
 
 
 test_num_list_1 = [3, 4, 5, 2, 1]
