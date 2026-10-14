@@ -12,10 +12,10 @@ def solution(arr1, arr2):
     return answer
 
 
-test_arr1_1 = [[1, 4], [3, 2], [4, 1]]
-test_arr2_1 = [[3, 3], [3, 3]]
-test_arr1_2 = [[2, 3, 2], [4, 2, 4], [3, 1, 4]]
-test_arr2_2 = [[5, 4, 3], [2, 4, 1], [3, 1, 1]]
+arr1_1 = [[1, 4], [3, 2], [4, 1]]
+arr2_1 = [[3, 3], [3, 3]]
+arr1_2 = [[2, 3, 2], [4, 2, 4], [3, 1, 4]]
+arr2_2 = [[5, 4, 3], [2, 4, 1], [3, 1, 1]]
 
-print(solution(test_arr1_1, test_arr2_1))
-print(solution(test_arr1_2, test_arr2_2))
+print(solution(arr1_1, arr2_1))
+print(solution(arr1_2, arr2_2))

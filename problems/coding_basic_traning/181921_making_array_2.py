@@ -3,10 +3,10 @@ def solution(l, r):
     return answer
 
 
-test_l_1 = 5
-test_r_1 = 555
-test_l_2 = 10
-test_r_2 = 20
+l_1 = 5
+r_1 = 555
+l_2 = 10
+r_2 = 20
 
-print(solution(test_l_1, test_r_1))  # [5, 50, 55, 500, 505, 550, 555]
-print(solution(test_l_2, test_r_2))  # [-1]
+print(solution(l_1, r_1))  # [5, 50, 55, 500, 505, 550, 555]
+print(solution(l_2, r_2))  # [-1]

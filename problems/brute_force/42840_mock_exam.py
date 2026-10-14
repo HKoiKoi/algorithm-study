@@ -32,12 +32,12 @@ def solution(answers):
     return winner
 
 
-answers1 = [1, 2, 3, 4, 5]
-answers2 = [1, 3, 2, 4, 2]
-answers3 = [2, 1, 2, 3, 2, 4, 2, 5]
-answers4 = [4, 4]
+answers_1 = [1, 2, 3, 4, 5]
+answers_2 = [1, 3, 2, 4, 2]
+answers_3 = [2, 1, 2, 3, 2, 4, 2, 5]
+answers_4 = [4, 4]
 
-print(solution(answers1))
-print(solution(answers2))
-print(solution(answers3))
-print(solution(answers4))
+print(solution(answers_1))
+print(solution(answers_2))
+print(solution(answers_3))
+print(solution(answers_4))

@@ -5,14 +5,14 @@ def solution(ineq, eq, n, m):
     return int(eval(f"{n} {ineq} {m}"))
 
 
-test_ineq1 = "<"
-test_eq1 = "="
-test_n1 = 20
-test_m1 = 50
-test_ineq2 = ">"
-test_eq2 = "!"
-test_n2 = 41
-test_m2 = 78
+ineq_1 = "<"
+eq_1 = "="
+n_1 = 20
+m_1 = 50
+ineq_2 = ">"
+eq_2 = "!"
+n_2 = 41
+m_2 = 78
 
-print(solution(test_ineq1, test_eq1, test_n1, test_m1))  # 1
-print(solution(test_ineq2, test_eq2, test_n2, test_m2))  # 0
+print(solution(ineq_1, eq_1, n_1, m_1))  # 1
+print(solution(ineq_2, eq_2, n_2, m_2))  # 0

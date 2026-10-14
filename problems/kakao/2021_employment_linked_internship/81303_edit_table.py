@@ -45,10 +45,10 @@ def solution(n, k, cmd):
     return "".join(result)
 
 
-test_n = 8
-test_k = 2
-test_cmd1 = ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"]
-test_cmd2 = ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z", "U 1", "C"]
+n = 8
+k = 2
+cmd_1 = ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z"]
+cmd_2 = ["D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z", "U 1", "C"]
 
-print(solution(test_n, test_k, test_cmd1))  # "OOOOXOOO"
-print(solution(test_n, test_k, test_cmd2))  # "OOXOXOOO"
+print(solution(n, k, cmd_1))  # "OOOOXOOO"
+print(solution(n, k, cmd_2))  # "OOXOXOOO"

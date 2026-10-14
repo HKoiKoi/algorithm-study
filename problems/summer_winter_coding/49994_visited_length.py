@@ -34,8 +34,8 @@ def solution(dirs):
     return len(answer) // 2
 
 
-test_dirs1 = "ULURRDLLU"
-test_dirs2 = "LULLLLLLU"
+dirs_1 = "ULURRDLLU"
+dirs_2 = "LULLLLLLU"
 
-print(solution(test_dirs1))  # 7
-print(solution(test_dirs2))  # 7
+print(solution(dirs_1))  # 7
+print(solution(dirs_2))  # 7

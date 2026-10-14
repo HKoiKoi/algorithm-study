@@ -25,13 +25,13 @@ def solution(orders, course):
     return sorted(answer)
 
 
-test_orders1 = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]
-test_course1 = [2, 3, 4]
-test_orders2 = ["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"]
-test_course2 = [2, 3, 5]
-test_orders3 = ["XYZ", "XWY", "WXA"]
-test_course3 = [2, 3, 4]
+orders_1 = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]
+course_1 = [2, 3, 4]
+orders_2 = ["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"]
+course_2 = [2, 3, 5]
+orders_3 = ["XYZ", "XWY", "WXA"]
+course_3 = [2, 3, 4]
 
-print(solution(test_orders1, test_course1))  # ["AC", "ACDE", "BCFG", "CDE"]
-print(solution(test_orders2, test_course2))  # ["ACD", "AD", "ADE", "CD", "XYZ"]
-print(solution(test_orders3, test_course3))  # ["WX", "XY"]
+print(solution(orders_1, course_1))  # ["AC", "ACDE", "BCFG", "CDE"]
+print(solution(orders_2, course_2))  # ["ACD", "AD", "ADE", "CD", "XYZ"]
+print(solution(orders_3, course_3))  # ["WX", "XY"]

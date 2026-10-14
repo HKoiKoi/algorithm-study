@@ -27,14 +27,14 @@ def solution(s):
     return answer
 
 
-test_s1 = "[](){}"
-test_s2 = "}]()[{"
-test_s3 = "[)(]"
-test_s4 = "}}}"
-test_s5 = "({)}"
+s_1 = "[](){}"
+s_2 = "}]()[{"
+s_3 = "[)(]"
+s_4 = "}}}"
+s_5 = "({)}"
 
-print(solution(test_s1))
-print(solution(test_s2))
-print(solution(test_s3))
-print(solution(test_s4))
-print(solution(test_s5))
+print(solution(s_1))
+print(solution(s_2))
+print(solution(s_3))
+print(solution(s_4))
+print(solution(s_5))

@@ -5,8 +5,8 @@ def solution(n):
     return sum([x * x for x in range(n + 1) if x % 2 == 0])
 
 
-test_n1 = 7
-test_n2 = 10
+n_1 = 7
+n_2 = 10
 
-print(solution(test_n1))  # 16
-print(solution(test_n2))  # 220
+print(solution(n_1))  # 16
+print(solution(n_2))  # 220

@@ -2,12 +2,12 @@ def solution(number, n, m):
     return int(not ((number % n) or (number % m)))
 
 
-test_number1 = 60
-test_n1 = 2
-test_m1 = 3
-test_number2 = 55
-test_n2 = 10
-test_m2 = 5
+number_1 = 60
+n_1 = 2
+m_1 = 3
+number_2 = 55
+n_2 = 10
+m_2 = 5
 
-print(solution(test_number1, test_n1, test_m1))  # 1
-print(solution(test_number2, test_n2, test_m2))  # 0
+print(solution(number_1, n_1, m_1))  # 1
+print(solution(number_2, n_2, m_2))  # 0

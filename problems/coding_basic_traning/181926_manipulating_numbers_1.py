@@ -4,7 +4,7 @@ def solution(n, control):
     return n + sum(command[ch] for ch in control)
 
 
-test_n = 0
-test_control = "wsdawsdassw"
+n = 0
+control = "wsdawsdassw"
 
-print(solution(test_n, test_control))  # -1
+print(solution(n, control))  # -1

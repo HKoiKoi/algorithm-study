@@ -2,10 +2,10 @@ def solution(my_string, k):
     return my_string * k
 
 
-test_my_string1 = "string"
-test_k1 = 3
-test_my_string2 = "love"
-test_k2 = 10
+my_string_1 = "string"
+k_1 = 3
+my_string_2 = "love"
+k_2 = 10
 
-print(solution(test_my_string1, test_k1))  # stringstringstring
-print(solution(test_my_string2, test_k2))  # lovelovelovelovelovelovelovelovelovelove
+print(solution(my_string_1, k_1))  # stringstringstring
+print(solution(my_string_2, k_2))  # lovelovelovelovelovelovelovelovelovelove

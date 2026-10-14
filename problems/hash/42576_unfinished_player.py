@@ -10,13 +10,13 @@ def solution(participant, completion):
     return list(unfinished_player.keys())[0]
 
 
-test_participant1 = ["leo", "kiki", "eden"]
-test_completion1 = ["eden", "kiki"]
-test_participant2 = ["marina", "josipa", "nikola", "vinko", "filipa"]
-test_completion2 = ["josipa", "filipa", "marina", "nikola"]
-test_participant3 = ["mislav", "stanko", "mislav", "ana"]
-test_completion3 = ["stanko", "ana", "mislav"]
+participant_1 = ["leo", "kiki", "eden"]
+completion_1 = ["eden", "kiki"]
+participant_2 = ["marina", "josipa", "nikola", "vinko", "filipa"]
+completion_2 = ["josipa", "filipa", "marina", "nikola"]
+participant_3 = ["mislav", "stanko", "mislav", "ana"]
+completion_3 = ["stanko", "ana", "mislav"]
 
-print(solution(test_participant1, test_completion1))  # leo
-print(solution(test_participant2, test_completion2))  # vinko
-print(solution(test_participant3, test_completion3))  # mislav
+print(solution(participant_1, completion_1))  # leo
+print(solution(participant_2, completion_2))  # vinko
+print(solution(participant_3, completion_3))  # mislav

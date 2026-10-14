@@ -2,10 +2,10 @@ def solution(a, b):
     return int(max(f"{a}{b}", f"{b}{a}"))
 
 
-test_a1 = 9
-test_b1 = 91
-test_a2 = 89
-test_b2 = 8
+a_1 = 9
+b_1 = 91
+a_2 = 89
+b_2 = 8
 
-print(solution(test_a1, test_b1))  # 991
-print(solution(test_a2, test_b2))  # 898
+print(solution(a_1, b_1))  # 991
+print(solution(a_2, b_2))  # 898

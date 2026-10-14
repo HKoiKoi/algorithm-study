@@ -29,10 +29,10 @@ def solution(N, stages):
     return answer
 
 
-test_n_1 = 5
-test_stages_1 = [2, 1, 2, 6, 2, 4, 3, 3]
-test_n_2 = 4
-test_stages_2 = [4, 4, 4, 4, 4]
+N_1 = 5
+stages_1 = [2, 1, 2, 6, 2, 4, 3, 3]
+N_2 = 4
+stages_2 = [4, 4, 4, 4, 4]
 
-print(solution(test_n_1, test_stages_1))
-print(solution(test_n_2, test_stages_2))
+print(solution(N_1, stages_1))
+print(solution(N_2, stages_2))

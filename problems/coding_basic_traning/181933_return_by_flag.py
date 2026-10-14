@@ -2,10 +2,10 @@ def solution(a, b, flag):
     return a + b if flag else a - b
 
 
-test_a = -4
-test_b = 7
-test_flag1 = True
-test_flag2 = False
+a = -4
+b = 7
+flag_1 = True
+flag_2 = False
 
-print(solution(test_a, test_b, test_flag1))  # 3
-print(solution(test_a, test_b, test_flag2))  # -11
+print(solution(a, b, flag_1))  # 3
+print(solution(a, b, flag_2))  # -11

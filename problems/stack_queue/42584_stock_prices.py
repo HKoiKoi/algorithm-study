@@ -25,6 +25,6 @@ def solution(prices):
     return answer
 
 
-test_prices = [1, 2, 3, 2, 3]
+prices = [1, 2, 3, 2, 3]
 
-print(solution(test_prices))  # [4, 3, 1, 1, 0]
+print(solution(prices))  # [4, 3, 1, 1, 0]

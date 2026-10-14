@@ -19,5 +19,5 @@ def solution(code):
     return ret if len(ret) > 0 else "EMPTY"
 
 
-test_code = "abc1abc1abc"
-print(solution(test_code))  # "acbac"
+code = "abc1abc1abc"
+print(solution(code))  # "acbac"

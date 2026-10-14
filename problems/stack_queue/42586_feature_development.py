@@ -23,10 +23,10 @@ def solution(progresses, speeds):
     return answer
 
 
-test_progresses1 = [93, 30, 55]
-test_speeds1 = [1, 30, 5]
-test_progresses2 = [95, 90, 99, 99, 80, 99]
-test_speeds2 = [1, 1, 1, 1, 1, 1]
+progresses_1 = [93, 30, 55]
+speeds_1 = [1, 30, 5]
+progresses_2 = [95, 90, 99, 99, 80, 99]
+speeds_2 = [1, 1, 1, 1, 1, 1]
 
-print(solution(test_progresses1, test_speeds1))  # [2, 1]
-print(solution(test_progresses2, test_speeds2))  # [1, 3, 2]
+print(solution(progresses_1, speeds_1))  # [2, 1]
+print(solution(progresses_2, speeds_2))  # [1, 3, 2]

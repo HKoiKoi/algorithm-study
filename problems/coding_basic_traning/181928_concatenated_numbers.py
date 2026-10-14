@@ -5,8 +5,8 @@ def solution(num_list):
     return odd + even
 
 
-test_num_list_1 = [3, 4, 5, 2, 1]
-test_num_list_2 = [5, 7, 8, 3]
+num_list_1 = [3, 4, 5, 2, 1]
+num_list_2 = [5, 7, 8, 3]
 
-print(solution(test_num_list_1))  # 393
-print(solution(test_num_list_2))  # 581
+print(solution(num_list_1))  # 393
+print(solution(num_list_2))  # 581

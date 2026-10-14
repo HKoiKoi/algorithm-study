@@ -9,8 +9,8 @@ def solution(num_list):
     return int(product < sum ** 2)
 
 
-test_num_list_1 = [3, 4, 5, 2, 1]
-test_num_list_2 = [5, 7, 8, 3]
+num_list_1 = [3, 4, 5, 2, 1]
+num_list_2 = [5, 7, 8, 3]
 
-print(solution(test_num_list_1))  # 1
-print(solution(test_num_list_2))  # 0
+print(solution(num_list_1))  # 1
+print(solution(num_list_2))  # 0

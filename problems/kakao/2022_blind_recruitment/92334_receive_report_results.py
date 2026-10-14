@@ -15,12 +15,12 @@ def solution(id_list, report, k):
     return [mail_count_dict[user_id] for user_id in id_list]
 
 
-test_id_list1 = ["muzi", "frodo", "apeach", "neo"]
-test_report1 = ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"]
-test_k1 = 2
-test_id_list2 = ["con", "ryan"]
-test_report2 = ["ryan con", "ryan con", "ryan con", "ryan con"]
-test_k2 = 3
+id_list_1 = ["muzi", "frodo", "apeach", "neo"]
+report_1 = ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"]
+k_1 = 2
+id_list_2 = ["con", "ryan"]
+report_2 = ["ryan con", "ryan con", "ryan con", "ryan con"]
+k_2 = 3
 
-print(solution(test_id_list1, test_report1, test_k1))  # [2,1,1,0]
-print(solution(test_id_list2, test_report2, test_k2))  # [0,0]
+print(solution(id_list_1, report_1, k_1))  # [2,1,1,0]
+print(solution(id_list_2, report_2, k_2))  # [0,0]
