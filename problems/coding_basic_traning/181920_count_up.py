@@ -1,6 +1,5 @@
 def solution(start_num, end_num):
-    answer = []
-    return answer
+    return [num for num in range(start_num, end_num + 1)]
 
 
 start_num = 3

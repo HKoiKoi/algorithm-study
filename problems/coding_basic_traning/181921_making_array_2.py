@@ -1,6 +1,11 @@
 def solution(l, r):
     answer = []
-    return answer
+
+    for num in range(l, r + 1):
+        if set(str(num)).issubset({"0", "5"}):
+            answer.append(num)
+
+    return [-1] if not answer else answer
 
 
 l_1 = 5
