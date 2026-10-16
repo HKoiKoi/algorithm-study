@@ -1,6 +1,5 @@
 def solution(my_string, index_list):
-    answer = ''
-    return answer
+    return "".join([my_string[idx] for idx in index_list])
 
 
 my_string_1 = "cvsgiorszzzmrpaqpe"

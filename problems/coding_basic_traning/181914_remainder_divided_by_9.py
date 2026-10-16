@@ -1,6 +1,5 @@
 def solution(number):
-    answer = 0
-    return answer
+    return sum((map(int, number))) % 9
 
 
 number_1 = "123"
