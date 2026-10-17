@@ -1,6 +1,5 @@
 def solution(numbers):
-    answer = []
-    return answer
+    return [num * 2 for num in numbers]
 
 
 numbers_1 = [1, 2, 3, 4, 5]
