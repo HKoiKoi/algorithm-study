@@ -1,6 +1,5 @@
 def solution(my_string, n):
-    answer = ''
-    return answer
+    return my_string[:n]
 
 
 my_string_1 = "ProgrammerS123"

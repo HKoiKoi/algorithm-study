@@ -1,6 +1,9 @@
 def solution(num_list):
-    answer = 0
-    return answer
+    for i, num in enumerate(num_list):
+        if num < 0:
+            return i
+
+    return -1
 
 
 num_list_1 = [12, 4, 15, 46, 38, -2, 15]

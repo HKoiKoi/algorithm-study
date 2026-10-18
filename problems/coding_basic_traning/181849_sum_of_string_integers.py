@@ -1,6 +1,5 @@
 def solution(num_str):
-    answer = 0
-    return answer
+    return sum(map(int, num_str))
 
 
 num_str_1 = "123456789"

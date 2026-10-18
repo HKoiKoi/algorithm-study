@@ -1,6 +1,5 @@
 def solution(my_string):
-    answer = []
-    return answer
+    return my_string.split()
 
 
 my_string_1 = "i    love  you"

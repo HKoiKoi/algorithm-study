@@ -1,6 +1,5 @@
 def solution(str1, str2):
-    answer = 0
-    return answer
+    return int(str1 in str2)
 
 
 str1_1 = "abc"
