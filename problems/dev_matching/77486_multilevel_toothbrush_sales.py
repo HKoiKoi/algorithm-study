@@ -1,6 +1,19 @@
 def solution(enroll, referral, seller, amount):
-    answer = []
-    return answer
+    parent = dict(zip(enroll, referral))
+    total = {name: 0 for name in enroll}
+
+    for name, num in zip(seller, amount):
+        sales = num * 100
+
+        curr = name
+        while curr != "-" and sales > 0:
+            fee = sales // 10
+            total[curr] += sales - fee
+
+            curr = parent[curr]
+            sales = fee
+
+    return list(total.values())
 
 
 enroll = ["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"]
