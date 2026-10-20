@@ -1,6 +1,5 @@
 def solution(n):
-    answer = []
-    return answer
+    return [n for n in range(1, n + 1) if n % 2 != 0]
 
 
 n_1 = 10
