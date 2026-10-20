@@ -1,6 +1,5 @@
 def solution(n, k):
-    answer = []
-    return answer
+    return [i for i in range(k, n + 1, k)]
 
 
 n_1 = 10

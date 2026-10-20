@@ -1,6 +1,8 @@
+import statistics
+
+
 def solution(numbers):
-    answer = 0
-    return answer
+    return statistics.mean(numbers)
 
 
 numbers_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

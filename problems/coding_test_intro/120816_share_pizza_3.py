@@ -1,6 +1,5 @@
 def solution(slice, n):
-    answer = 0
-    return answer
+    return (n - 1) // slice + 1
 
 
 slice_1 = 7

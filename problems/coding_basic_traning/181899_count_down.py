@@ -1,6 +1,5 @@
 def solution(start_num, end_num):
-    answer = []
-    return answer
+    return list(range(start_num, end_num - 1, -1))
 
 
 start_num = 10

@@ -1,6 +1,5 @@
 def solution(my_string, m, c):
-    answer = ''
-    return answer
+    return my_string[c - 1::m]
 
 
 my_string_1 = "ihrhbakrfpndopljhygc"

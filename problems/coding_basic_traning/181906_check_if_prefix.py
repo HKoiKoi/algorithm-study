@@ -1,6 +1,5 @@
 def solution(my_string, is_prefix):
-    answer = 0
-    return answer
+    return int(my_string.startswith(is_prefix))
 
 
 my_string = "banana"

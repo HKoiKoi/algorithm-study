@@ -1,6 +1,5 @@
 def solution(q, r, code):
-    answer = ''
-    return answer
+    return code[r::q]
 
 
 q_1 = 3

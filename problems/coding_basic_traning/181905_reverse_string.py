@@ -1,6 +1,11 @@
 def solution(my_string, s, e):
-    answer = ''
-    return answer
+    answer = []
+
+    answer.append(my_string[0:s])
+    answer.append(my_string[s:e + 1][::-1])
+    answer.append(my_string[e + 1:])
+
+    return "".join(answer)
 
 
 my_string_1 = "Progra21Sremm3"
