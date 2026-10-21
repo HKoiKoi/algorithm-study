@@ -1,6 +1,5 @@
 def solution(num_list):
-    answer = []
-    return answer
+    return num_list[::-1]
 
 
 num_list_1 = [1, 2, 3, 4, 5]

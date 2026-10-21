@@ -1,6 +1,5 @@
 def solution(n_str):
-    answer = 0
-    return answer
+    return int(n_str)
 
 
 n_str_1 = "10"

@@ -1,6 +1,5 @@
 def solution(money):
-    answer = []
-    return answer
+    return [money // 5500, money % 5500]
 
 
 money_1 = 5500

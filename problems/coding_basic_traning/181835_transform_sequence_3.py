@@ -1,6 +1,8 @@
 def solution(arr, k):
-    answer = []
-    return answer
+    if k % 2 == 0:
+        return [i + k for i in arr]
+    else:
+        return [i * k for i in arr]
 
 
 arr_1 = [1, 2, 3, 100, 99, 98]

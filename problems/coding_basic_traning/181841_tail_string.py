@@ -1,6 +1,5 @@
 def solution(str_list, ex):
-    answer = ''
-    return answer
+    return "".join([str for str in str_list if ex not in str])
 
 
 str_list_1 = ["abc", "def", "ghi"]
