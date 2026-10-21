@@ -1,6 +1,5 @@
 def solution(rny_string):
-    answer = ''
-    return answer
+    return rny_string.replace("m", "rn")
 
 
 rny_string_1 = "masterpiece"

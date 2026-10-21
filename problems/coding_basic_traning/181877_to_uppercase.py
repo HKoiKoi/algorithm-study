@@ -1,6 +1,5 @@
 def solution(myString):
-    answer = ''
-    return answer
+    return myString.upper()
 
 
 myString_1 = "aBcDeFg"

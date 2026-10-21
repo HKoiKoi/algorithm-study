@@ -1,6 +1,5 @@
 def solution(num_list):
-    answer = []
-    return answer
+    return sorted(num_list)[:5]
 
 
 num_list = [12, 4, 15, 46, 38, 1, 14]
