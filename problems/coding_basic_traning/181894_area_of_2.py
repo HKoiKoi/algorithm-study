@@ -1,6 +1,8 @@
 def solution(arr):
-    answer = []
-    return answer
+    if 2 not in arr:
+        return [-1]
+
+    return arr[arr.index(2):len(arr) - arr[::-1].index(2)]
 
 
 arr_1 = [1, 2, 1, 4, 5, 2, 9]
