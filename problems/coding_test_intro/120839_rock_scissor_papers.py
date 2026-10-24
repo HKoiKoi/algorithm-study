@@ -1,6 +1,5 @@
 def solution(rsp):
-    answer = ''
-    return answer
+    return "".join({"2": "0", "0": "5", "5": "2"}[i] for i in rsp)
 
 
 test_cases = [

@@ -1,5 +1,10 @@
 def solution(emergency):
     answer = []
+    priority = sorted(emergency, reverse=True)
+
+    for num in emergency:
+        answer.append(priority.index(num) + 1)
+
     return answer
 
 

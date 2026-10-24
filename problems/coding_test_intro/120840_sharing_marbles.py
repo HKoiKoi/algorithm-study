@@ -1,6 +1,8 @@
+import math
+
+
 def solution(balls, share):
-    answer = 0
-    return answer
+    return math.comb(balls, share)
 
 
 test_cases = [

@@ -1,6 +1,10 @@
 def solution(age):
-    answer = ''
-    return answer
+    answer = []
+
+    for num in str(age):
+        answer.append(chr(ord(num) + 49))
+
+    return "".join(answer)
 
 
 test_cases = [
