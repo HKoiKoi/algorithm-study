@@ -1,6 +1,5 @@
 def solution(myString):
-    answer = ''
-    return answer
+    return myString.lower().replace("a", "A")
 
 
 test_cases = [
